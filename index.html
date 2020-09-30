@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Delite Gourmet</title>
+	<!--meta-->
+	<meta charset="utf-8">
+	<meta name="author" content="ina">
+	<meta name="keywords" lang="es" content="deleite, gourmet, comida, postres">
+	<meta name="descrption" lang="es" content="Delite Gourmet">
+
+	<!--icono de pestaña-->
+	<link rel="shortcut icon" type="image/x-icon" href="img/icono.png">
+	<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+	<!--codigo css-->
+	<style>
+		/*General*/
+		body{
+			margin: 25px 0;
+			font-family: "Century Gothic";
+			font-size: 15px;
+			text-align: center;
+			background-color: #FFF;
+			color:#000;
+		}
+		a:link{color:#70511F;}
+		a:visited{color:#70511F;}
+
+		p{
+			color:#70511F; text-align: justify; line-height: 20px; 
+		}
+		span{
+			padding: 10px 0; display: block;
+		}
+		table{
+			width: 200px;
+			height: 60px;
+			text-align: center;
+			font-family: 'Courgette', cursive ;
+			margin: 0 auto;
+		}
+		td{
+			padding: 5px 20px;
+		}
+
+		/*Estructura*/
+		#wrapper{
+			width: 900px; height: 100%; margin: 0 auto;
+		}
+		header{
+			width: 900px; height: 663px; text-align: center;
+		}
+		nav{
+			width: 900px; height: 200px; text-align: center; margin-bottom: 25px;
+		}
+		footer{
+			width: 860px; height: 150px; clear: left; padding: 20px; background-color: #70511F; color: #FFF;
+			text-align: center;
+		}
+
+		#content1{
+			width: 860px; height: 100%; margin-bottom: 10px; padding: 80px 20px; background-color: #70511F; text-align: center;
+		}
+		
+		header:hover{
+			background-color: #FFDDB2;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<!--Encabezado-->
+		<header>
+			<a href="index.html">
+				<img src="img/logo.png" alt="logo" width="150" height="275">
+				<img src="img/imagen1.jpg" alt="pasteles" width="900" height="385">
+			</a>
+		</header>
+
+		<!--Menu-->
+		<nav>
+			<a href="index.html">
+				<img src="img/menu.png" alt="Menú" width="140" height="40" onmouseover="this.src='img/menu2.png'" onmouseout="this.src='img/menu.png'">
+			</a><br>
+
+			<a href="historia.html">
+				<img src="img/historia.png" alt="Historia" width="140" height="40" onmouseover="this.src='img/historia2.png'" onmouseout="this.src='img/historia.png'">
+			</a><br>
+
+			<a href="reservacion.html">
+				<img src="img/reservacion.png" alt="Reservacion" width="140" height="40" onmouseover="this.src='img/reservacion2.png'" onmouseout="this.src='img/reservacion.png'">
+			</a><br>
+
+			<a href="contacto.html">
+				<img src="img/contacto.png" alt="Contacto" width="140" height="40" onmouseover="this.src='img/contacto2.png'" onmouseout="this.src='img/contacto.png'">
+			</a><br>
+
+			<hr style="width: 300px; margin: 20px auto;">
+		</nav>
+
+		<!--Contenido-->
+		<main>
+			<div id="content1">
+				<img src="img/menu.png" alt="Historia" width="700" height="190">
+			</div>
+			<h1>Postres Deleite</h1>
+			<table>
+				<tr>
+					<td><strong>Canasta de Chocolate con Frambuesa</strong></td>
+					<td><strong>Brownie de Café</strong></td>
+					<td><strong>Mousse de Maracuya</strong></td>
+				</tr>
+				<tr>
+					<td><img src="img/postre1.jpg" width="250" height="200"></td>
+					<td><img src="img/postre3.jpg" width="250" height="200"></td>
+					<td><img src="img/postre5.jpg" width="250" height="200"></td>
+				</tr>
+			</table>
+			<br><br>
+
+			<table>
+				<tr>
+					<td><strong>Alfajores de Café</strong></td>
+					<td><strong>Cheesecake Frío de Fresa</strong></td>
+					<td><strong>Cupcake de Fresa</strong></td>
+				</tr>
+				<tr>
+					<td><img src="img/postre2.jpg" width="250" height="200"></td>
+					<td><img src="img/postre4.png" width="250" height="200"></td>
+					<td><img src="img/postre6.jpg" width="250" height="200"></td>
+				</tr>
+			</table>
+			<br><br>
+
+			<table>
+				<tr>
+					<td><strong>Dona de Chocolate</strong></td>
+					<td><strong>Crepas de Fresa</strong></td>
+					<td><strong>Pie de Limón</strong></td>
+				</tr>
+				<tr>
+					<td><img src="img/postre7.jpg" width="250" height="200"></td>
+					<td><img src="img/postre8.jpg" width="250" height="200"></td>
+					<td><img src="img/postre9.jpg" width="250" height="200"></td>
+				</tr>
+			</table>
+			
+		</main>
+
+		<!--Pie de pagina-->
+		<footer>
+			<span style="font-size: 18px;">S I G U E N O S</span>
+
+			<a href="http://www.instagram.com">
+				<img src="img/instagram.png" alt="instagram" width="50" height="49">
+			</a>
+
+			<a href="http://wwww.facebook.com">
+				<img src="img/facebook.png" alt="facebook" width="50" height="49">
+			</a>
+
+			<span>Deleite. Todos los derechos reservados.</span>
+		</footer>
+	</div>
+</body>
+</html>
